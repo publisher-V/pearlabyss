@@ -25,11 +25,28 @@
   right: 0;
 }
 
+.contact-text-wrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+}
+
 .contact-text-box {
   display: flex;
   flex-direction: column;
   margin: 20px 0;
   line-height: 1.5rem;
+}
+
+.contact-text-box a,
+.contact-text-wrap a {
+  transition: 0.3s;
+}
+
+.contact-text-box a:hover,
+.contact-text-wrap a:hover {
+  color: rgb(196, 196, 196);
 }
 
 .locate-mark {
@@ -44,13 +61,6 @@
   flex-direction: column;
   font-size: 15px;
   margin-left: 10px;
-}
-
-.contact-text-wrap {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 10%;
 }
 
 .amsterdam {

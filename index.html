@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,16 +17,28 @@
   <body>
     <header>
       <div class="header-inner">
+        <div class="drawer">
+          <div class="drawer-child"></div>
+          <div class="drawer-child"></div>
+          <div class="drawer-child"></div>
+        </div>
         <div class="header-logo">
           <a href="index.html"><h2>PEARLABYSS</h2></a>
         </div>
         <div class="gnb-wrap">
+          <div class="res-header">
+            <a href=""><h2>PEARLABYSS</h2></a>
+          </div>
           <ul class="header-gnb">
             <li class="gnb-item">
-              <a href="">소개</a>
+              <div class="gnb-item-title">
+                <a href="">소개<i class="fa-solid fa-chevron-down"></i></a>
+              </div>
               <div class="header-sub-box">
                 <ul class="header-sub">
-                  <li class="sub-item"><a href="">펄어비스 소개</a></li>
+                  <li class="sub-item">
+                    <a href="about.html">펄어비스 소개</a>
+                  </li>
                   <li class="sub-item"><a href="">연구소</a></li>
                   <li class="sub-item">
                     <a href=""
@@ -36,7 +49,9 @@
               </div>
             </li>
             <li class="gnb-item">
-              <a href="">게임</a>
+              <div class="gnb-item-title">
+                <a href="">게임<i class="fa-solid fa-chevron-down"></i></a>
+              </div>
               <div class="header-sub-box">
                 <ul class="header-sub">
                   <li class="sub-item"><a href="">검은사막</a></li>
@@ -48,7 +63,9 @@
               </div>
             </li>
             <li class="gnb-item">
-              <a href="">미디어</a>
+              <div class="gnb-item-title">
+                <a href="">미디어<i class="fa-solid fa-chevron-down"></i></a>
+              </div>
               <div class="header-sub-box">
                 <ul class="header-sub">
                   <li class="sub-item"><a href="">보도자료</a></li>
@@ -57,7 +74,9 @@
               </div>
             </li>
             <li class="gnb-item">
-              <a href="">문화</a>
+              <div class="gnb-item-title">
+                <a href="">문화<i class="fa-solid fa-chevron-down"></i></a>
+              </div>
               <div class="header-sub-box">
                 <ul class="header-sub">
                   <li class="sub-item"><a href="">기업문화</a></li>
@@ -67,7 +86,9 @@
               </div>
             </li>
             <li class="gnb-item">
-              <a href="">채용</a>
+              <div class="gnb-item-title">
+                <a href="">채용<i class="fa-solid fa-chevron-down"></i></a>
+              </div>
               <div class="header-sub-box">
                 <ul class="header-sub">
                   <li class="sub-item"><a href="">채용소개</a></li>
@@ -75,7 +96,9 @@
               </div>
             </li>
             <li class="gnb-item">
-              <a href="">투자정보</a>
+              <div class="gnb-item-title">
+                <a href="">투자정보<i class="fa-solid fa-chevron-down"></i></a>
+              </div>
               <div class="header-sub-box">
                 <ul class="header-sub">
                   <li class="sub-item"><a href="">기업지배구조</a></li>
@@ -93,6 +116,14 @@
           <div class="lang-item lang-kor"><a href="">KOR</a></div>
           <div class="lang-item lang-eng"><a href="">ENG</a></div>
           <div class="lang-item lang-jpn"><a href="">JPN</a></div>
+        </div>
+        <div class="res-language">
+          <i class="fa-solid fa-globe"></i>
+          <ul>
+            <li><a href="">KOR</a></li>
+            <li><a href="">ENG</a></li>
+            <li><a href="">JPN</a></li>
+          </ul>
         </div>
       </div>
     </header>
@@ -226,42 +257,52 @@
         <div class="inner">
           <div class="img-news-wrap">
             <div class="img-news-item">
-              <div class="img-news-item_image">
-                <img src="./imgs/news1.jpg" />
-              </div>
-              <div class="img-news-item_text">
-                <span>펄어비스 소식</span>
-                <p>신사옥에서 처음 맞이하는, 펄어비스 창립 12주년</p>
-              </div>
+              <a href="">
+                <div class="img-news-item_image">
+                  <img src="./imgs/news1.jpg" />
+                </div>
+                <div class="img-news-item_text">
+                  <span>펄어비스 소식</span>
+                  <p>신사옥에서 처음 맞이하는, 펄어비스 창립 12주년</p>
+                </div>
+              </a>
             </div>
             <div class="img-news-item">
-              <div class="img-news-item_image">
-                <img src="./imgs/news2.jpg" />
-              </div>
-              <div class="img-news-item_text">
-                <span>펄어비스 소식</span>
-                <p>아이들과의 특별하고 시원한 만남, '테르미안 워터 페스티벌'</p>
-              </div>
+              <a href="">
+                <div class="img-news-item_image">
+                  <img src="./imgs/news2.jpg" />
+                </div>
+                <div class="img-news-item_text">
+                  <span>펄어비스 소식</span>
+                  <p>
+                    아이들과의 특별하고 시원한 만남, '테르미안 워터 페스티벌'
+                  </p>
+                </div>
+              </a>
             </div>
             <div class="img-news-item">
-              <div class="img-news-item_image">
-                <img src="./imgs/news3.jpg" />
-              </div>
-              <div class="img-news-item_text">
-                <span>펄어비스 소식</span>
-                <p>
-                  [VOA 서울 비하인드] 검은사막 모험가님들을 드디어 만났습니다!
-                </p>
-              </div>
+              <a href="">
+                <div class="img-news-item_image">
+                  <img src="./imgs/news3.jpg" />
+                </div>
+                <div class="img-news-item_text">
+                  <span>펄어비스 소식</span>
+                  <p>
+                    [VOA 서울 비하인드] 검은사막 모험가님들을 드디어 만났습니다!
+                  </p>
+                </div>
+              </a>
             </div>
             <div class="img-news-item">
-              <div class="img-news-item_image">
-                <img src="./imgs/news4.jpg" />
-              </div>
-              <div class="img-news-item_text">
-                <span>펄어비스 소식</span>
-                <p>펄어비스 안양오피스 '창고 대-방출 기부' 이벤트!</p>
-              </div>
+              <a href="">
+                <div class="img-news-item_image">
+                  <img src="./imgs/news4.jpg" />
+                </div>
+                <div class="img-news-item_text">
+                  <span>펄어비스 소식</span>
+                  <p>펄어비스 안양오피스 '창고 대-방출 기부' 이벤트!</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -270,7 +311,7 @@
       <div class="more">
         <div class="more-wrap">
           <div class="more-item">
-            <h1>펄어비스를 더 알아보세요!</h1>
+            <h1>펄어비스를 <br />더 알아보세요!</h1>
             <a href="about.html">더 알아보기</a>
           </div>
         </div>
@@ -365,7 +406,7 @@
           <div class="footer-inner">
             <div class="footer-copyright-wrap">
               <div class="footer-copyright-box">
-                <a href=""> <h3>PEARLABYSS</h3></a>
+                <a href="index.html"><h3>PEARLABYSS</h3></a>
                 <p>© Pearl Abyss Corp. All Rights Reserved.</p>
               </div>
               <div class="footer-sns">
@@ -392,5 +433,7 @@
     </main>
 
     <script src="js/headerChange.js"></script>
+    <script src="js/drawer.js"></script>
+    <script src="js/language.js"></script>
   </body>
 </html>

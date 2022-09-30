@@ -16,6 +16,10 @@
   justify-content: center;
 }
 
+.more-item br {
+  display: none;
+}
+
 .more-item h1 {
   font-size: 70px;
 }
