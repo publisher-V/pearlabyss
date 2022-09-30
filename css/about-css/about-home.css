@@ -4,7 +4,7 @@
   justify-content: center;
   width: 100%;
   height: 70vh;
-  background: url(imgs/about-intro.jpg);
+  background: url(/imgs/about-intro.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
