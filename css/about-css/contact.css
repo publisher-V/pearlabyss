@@ -1,0 +1,116 @@
+.contact {
+  position: relative;
+  z-index: 0;
+  margin-top: 150px;
+  width: 100%;
+  height: 550px;
+  background: url(D:/개발/프로젝트/pearlabyss/imgs/intro_map_bg.jpg) #3148a6;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.contact h1 {
+  font-size: 38px;
+}
+
+.contact a {
+  color: #ffffff;
+}
+
+.contact-locate {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.contact-text-box {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  line-height: 1.5rem;
+}
+
+.locate-mark {
+  background-color: #ffffff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.locate-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.contact-text-wrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+}
+
+.amsterdam {
+  top: 175px;
+  left: 36.5%;
+}
+
+.korea {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: 0;
+  top: 170px;
+  right: 41.3%;
+}
+
+.korea .locate-text {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.korea-mark {
+  position: relative;
+}
+
+.korea-mark::before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(194, 194, 194, 0.3);
+  border-radius: 50%;
+  animation: sparkle linear 0.8s infinite;
+}
+
+.japan {
+  top: 230px;
+  right: 36.8%;
+}
+
+.taiwan {
+  top: 280px;
+  right: 38.8%;
+}
+
+.usa {
+  top: 250px;
+  right: 24.2%;
+}
+
+@keyframes sparkle {
+  0% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* components */
+@import "components/header.css";
+@import "components/footer.css";
+
+/* index */
+@import "index-css/home.css";
+@import "index-css/news.css";
+@import "index-css/category.css";
+@import "index-css/img-news.css";
+@import "index-css/more.css";
+
+/* about */
+@import "about-css/about-home.css";
+@import "about-css/story.css";
+@import "about-css/value.css";
+@import "about-css/history.css";
+@import "about-css/contact.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.fa-arrow-up-right-from-square {
+  color: #838383;
+  transition: 0.3s;
+  margin-left: 3px;
+}

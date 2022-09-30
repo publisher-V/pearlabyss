@@ -1,0 +1,35 @@
+.img-news {
+  margin-top: 150px;
+}
+
+.img-news-wrap {
+  display: flex;
+}
+
+.img-news-item {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.img-news-item:last-child {
+  margin-right: 0;
+}
+
+.img-news-item_image img {
+  width: 100%;
+}
+
+.img-news-item_text {
+  line-height: 1.5rem;
+}
+
+.img-news-item_text span {
+  display: block;
+  margin: 15px 0;
+  color: #838383;
+  font-size: 14px;
+}
+
+.img-news-item_text p {
+  font-weight: 600;
+}

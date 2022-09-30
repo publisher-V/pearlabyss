@@ -1,0 +1,168 @@
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.header-logo,
+.gnb-wrap,
+.header-gnb,
+.header-language {
+  height: 100%;
+}
+
+.header-logo h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.header-logo a {
+  width: 100%;
+  height: 100%;
+}
+
+.header-logo,
+.header-language {
+  width: 180px;
+}
+
+.header-language a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header-language div {
+  flex: 1;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid transparent;
+  width: 1500px;
+  height: 70px;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.header-inner a {
+  color: #ffffff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.header-gnb,
+.header-language {
+  display: flex;
+}
+
+.gnb-item {
+  position: relative;
+  border: 2px solid transparent;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.gnb-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.gnb-item:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.header-sub-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 300px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.header-sub-box a {
+  color: #727272;
+  font-weight: 400;
+}
+
+.header-sub-box a:hover .fa-arrow-up-right-from-square,
+.header-sub-box a:hover {
+  color: #000000;
+}
+
+.sub-item {
+  font-size: 14px;
+}
+
+.sub-item a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.lang-eng a,
+.lang-jpn a {
+  color: #999999;
+}
+
+.lang-eng a:hover,
+.lang-jpn a:hover {
+  color: #000000;
+}
+
+header.change {
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 3px 10px,
+    rgba(255, 255, 255, 0.25) 0px 3px 10px inset;
+  background-color: #ffffff;
+}
+
+header:hover {
+  background-color: #ffffff;
+  height: 370px;
+}
+
+header:hover .header-logo a,
+header:hover .gnb-item > a,
+header:hover .lang-kor a {
+  color: #000000;
+}
+
+header:hover .header-inner {
+  border-bottom: 1px solid rgba(184, 184, 184, 0.3);
+}
+
+header:hover .header-sub-box {
+  opacity: 1;
+  visibility: visible;
+}
+
+header.change .header-logo a,
+header.change .gnb-item > a,
+header.change .lang-kor a {
+  color: #000000;
+}

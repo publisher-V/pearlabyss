@@ -1,0 +1,89 @@
+.value {
+  margin-top: 150px;
+}
+
+.value h1 {
+  margin-bottom: 50px;
+  font-size: 38px;
+  text-align: center;
+}
+
+.value-wrap {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(D:/개발/프로젝트/pearlabyss/imgs/value-home.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.3s;
+}
+
+.value-wrap-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 2;
+  width: 1200px;
+  height: auto;
+  color: #ffffff;
+}
+
+.value-wrap-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.value-wrap-content:hover {
+  color: rgba(202, 202, 202, 0.5);
+}
+
+.value-wrap-item:hover {
+  color: #ffffff;
+  background: transparent;
+}
+
+.value-wrap-item h2 {
+  position: relative;
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.value-wrap-item h2::after {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+
+.value-wrap-item:hover.value-wrap-item h2::after {
+  left: 0;
+  width: 100%;
+}
+
+.value-wrap-item p {
+  font-size: 21px;
+  line-height: 2.5rem;
+}
+
+.value-modal {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
