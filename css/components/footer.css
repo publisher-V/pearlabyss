@@ -95,6 +95,10 @@
   color: #ffffff;
 }
 
+.footer-link-item i {
+  display: none;
+}
+
 .sns-item:last-child {
   margin-right: 0;
 }

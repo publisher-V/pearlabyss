@@ -1,5 +1,6 @@
 const valueWrap = document.querySelector(".value-wrap");
 const valueModal = document.querySelector(".value-modal");
+const valueContent = document.querySelector(".value-wrap-content");
 const persist = document.querySelector(".persist");
 const wild = document.querySelector(".wild");
 const trust = document.querySelector(".trust");
@@ -21,6 +22,8 @@ function Bgreturn() {
 }
 
 persist.addEventListener("mouseenter", Bg1);
+persist.addEventListener("mouseleave", Bgreturn);
 wild.addEventListener("mouseenter", Bg2);
+wild.addEventListener("mouseleave", Bgreturn);
 trust.addEventListener("mouseenter", Bg3);
-valueModal.addEventListener("mouseenter", Bgreturn);
+trust.addEventListener("mouseleave", Bgreturn);

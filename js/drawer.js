@@ -3,6 +3,7 @@ const drawer = document.querySelector(".drawer");
 const gnbWrap = document.querySelector(".gnb-wrap");
 const gnbItem = document.querySelector(".gnb-item");
 const gnbItemTitle = document.querySelectorAll(".gnb-item-title");
+const gnbItemIcon = document.querySelectorAll(".gnb-item-title i");
 const subBox = document.querySelector(".header-sub-box");
 
 function drawerShow() {

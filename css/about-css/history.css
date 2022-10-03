@@ -8,6 +8,10 @@
   font-size: 38px;
 }
 
+.history > .inner {
+  position: relative;
+}
+
 .swiper {
   position: static;
   width: 100%;
@@ -74,7 +78,7 @@
   top: auto;
   left: 50%;
   transform: translateX(-50%);
-  width: 1400px;
+  width: 100%;
 }
 
 .swiper-pagination-progressbar-fill {
@@ -83,10 +87,14 @@
 
 .swiper-button-next {
   color: #000000;
-  right: 200px;
+  top: 23px;
+  right: 20px;
+  left: auto;
 }
 
 .swiper-button-prev {
+  top: 23px;
   color: #000000;
-  left: 200px;
+  left: calc(100% - 100px);
+  right: auto;
 }

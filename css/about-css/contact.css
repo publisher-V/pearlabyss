@@ -10,6 +10,15 @@
   color: #ffffff;
 }
 
+.contact > .inner {
+  height: 550px;
+}
+
+.contact-wrap {
+  width: 50%;
+  height: 100%;
+}
+
 .contact h1 {
   font-size: 38px;
 }
@@ -56,6 +65,10 @@
   border-radius: 50%;
 }
 
+.korea-mark {
+  position: relative;
+}
+
 .locate-text {
   display: flex;
   flex-direction: column;
@@ -63,17 +76,26 @@
   margin-left: 10px;
 }
 
+.contact-point-wrap {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .amsterdam {
   top: 175px;
-  left: 36.5%;
+  left: -260px;
+  right: auto;
 }
 
 .korea {
-  display: flex;
   flex-direction: column-reverse;
   margin-left: 0;
   top: 170px;
-  right: 41.3%;
+  left: 90px;
+  right: auto;
 }
 
 .korea .locate-text {
@@ -81,8 +103,8 @@
   margin-bottom: 10px;
 }
 
-.korea-mark {
-  position: relative;
+.taiwan .locate-text {
+  margin-top: 10px;
 }
 
 .korea-mark::before {
@@ -98,17 +120,20 @@
 
 .japan {
   top: 230px;
-  right: 36.8%;
+  left: 155px;
+  right: auto;
 }
 
 .taiwan {
   top: 280px;
-  right: 38.8%;
+  left: 110px;
+  right: auto;
 }
 
 .usa {
   top: 250px;
-  right: 24.2%;
+  left: 390px;
+  right: auto;
 }
 
 @keyframes sparkle {

@@ -235,3 +235,7 @@ header.change .drawer-child {
 .res-language {
   display: none;
 }
+
+.res-language i {
+  cursor: pointer;
+}
