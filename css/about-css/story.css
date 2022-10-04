@@ -17,7 +17,7 @@
 .story-wrap p {
   font-size: 18px;
   line-height: 2rem;
-  color: rgb(99, 99, 99);
+  color: #838383;
 }
 
 .story-wrap p:nth-of-type(1) {
