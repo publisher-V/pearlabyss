@@ -836,8 +836,9 @@
     margin-top: 70px;
   }
 
-  .home-wrap {
-    height: calc(100vh - 70px);
+  .home-wrap,
+  .about-home-wrap {
+    height: calc(var(--vh, 1vh) * 100 - 70px);
   }
 
   /* category section */
